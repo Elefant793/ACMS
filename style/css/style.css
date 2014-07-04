@@ -1,0 +1,98 @@
+body {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #E9EFED;
+	background-image: url('http://cdn-www.swtor.com//sites/all/files/en/promos/20140613_TwitchGalacticLiving.jpg');
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+ul.nav li {
+	border-right: 1px solid #E7E7E7;
+}
+
+ul.nav li:first-child {
+	border-left: 1px solid #E7E7E7;
+}
+
+ul.nav li:hover {
+	background-color: #E7E7E7;
+}
+
+.container{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-bottom: 5px;
+	max-width: 1200px;
+}
+
+.colInner{
+	margin: 5px;
+	padding: 35px;
+	background-color: #fff;
+	height: auto;
+	min-height: 350px;
+	    background: none repeat scroll 0% 0% #FFF;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #E5E6E9 #DFE0E4 #D0D1D5;
+    border-radius: 3px;
+}
+
+.navbar{
+    background: none repeat scroll 0% 0% #FFF;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #E5E6E9 #DFE0E4 #D0D1D5;
+    border-radius: 3px;
+}
+
+.footer{
+text-align: center;
+	bottom: 0px;
+	height: 50px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerInner{
+	margin: 5px;
+	padding: 35px;
+	background-color: #fff;
+	height: auto;
+	min-height: 50px;
+	background: none repeat scroll 0% 0% #FFF;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #E5E6E9 #DFE0E4 #D0D1D5;
+    border-radius: 3px;
+}
+
+.backTop{
+font-size: 35px;
+text-align: right;	
+}
