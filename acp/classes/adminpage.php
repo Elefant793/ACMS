@@ -349,13 +349,13 @@ class adminPage
 			}
 			$comp_name = $comp['comp_name'];
 			$comp_content = $comp['comp_content'];
-			$comp_content = str_replace("ö", "&ouml;", $comp_content);
-			$comp_content = str_replace("ä", "&auml;", $comp_content);
-			$comp_content = str_replace("ü", "&uuml;", $comp_content);		
-			$comp_content = str_replace("Ö", "&Ouml;", $comp_content);
-			$comp_content = str_replace("Ä", "&Auml;", $comp_content);
-			$comp_content = str_replace("Ü", "&Uuml;", $comp_content);
-			$comp_content = str_replace("ß", "&szlig;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&ouml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&auml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&uuml;", $comp_content);		
+			$comp_content = str_replace("ï¿½", "&Ouml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&Auml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&Uuml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&szlig;", $comp_content);
 			?>
 			<body>
 			<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
@@ -469,13 +469,13 @@ class adminPage
 			}
 			$comp_name = $comp['comp_name'];
 			$comp_content = $comp['comp_content'];
-			$comp_content = str_replace("ö", "&ouml;", $comp_content);
-			$comp_content = str_replace("ä", "&auml;", $comp_content);
-			$comp_content = str_replace("ü", "&uuml;", $comp_content);		
-			$comp_content = str_replace("Ö", "&Ouml;", $comp_content);
-			$comp_content = str_replace("Ä", "&Auml;", $comp_content);
-			$comp_content = str_replace("Ü", "&Uuml;", $comp_content);
-			$comp_content = str_replace("ß", "&szlig;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&ouml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&auml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&uuml;", $comp_content);		
+			$comp_content = str_replace("ï¿½", "&Ouml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&Auml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&Uuml;", $comp_content);
+			$comp_content = str_replace("ï¿½", "&szlig;", $comp_content);
 			?>
 			<body>
 			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -543,7 +543,28 @@ class adminPage
 	
 	public function createAddCarousel()
 	{
-	
+		?>
+		<body>
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<h1 class="page-header">Slideshow hinzuf&uuml;gen</h1>
+				<form action="action.php?action=add&item=carousel" method="post" role="form">
+					<div class="form-group">
+						
+					</div>
+					<div class="form-group">
+						
+					</div>
+					<div class="form-group">
+						
+					</div>				
+					<div class="checkbox">
+						
+					</div>
+					<p><button type="submit" class="btn btn-default">Submit</button></p>
+				</form>
+			</div>
+		</body>
+		<?php
 	}
 	
 	public function createAddNavigation()
